@@ -36,7 +36,7 @@ clock = time.Clock()
 
 player_1 = Player('platform.png', 10, 200, 30, 90, 5)
 player_2 = Player('platform.png', 560, 200, 30, 90, key_up=K_UP, key_down=K_DOWN)
-ball = Player('tenis_ball.png', 200, 200, 4, 50, 50)
+ball = Player('tenis_ball.jpg', 200, 200, 4, 50, 50)
 font.init()
 font = font.Font(None, 35)
 lose1 = font.render('PLAYER 1 LOSE!!', True, (180, 0, 0))
